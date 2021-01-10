@@ -1,0 +1,132 @@
+@media (max-width: 768px){
+   .wrapper{
+       width: 100vw;
+   }
+
+   .menu {
+       display: none;
+   }
+
+   .menu-btn {
+       display: block;
+   }
+
+   .about__inform{
+       width: 100%;
+   }
+
+   .we-image{
+       width: 85vw;
+       margin: 10px 0;
+   }
+
+   .services__text{
+       width: 100%;
+   }
+
+   .button{
+       width: 100%;
+       margin-top: 4vh;
+   }
+
+   .card{
+       width: 100%;
+       margin: 10px 0;
+   }
+
+   .newsletter{
+       flex-direction: column;
+   }
+
+   .email{
+       width: 45vw;
+   }
+
+   .button--newsletter{
+       width: 45vw;
+   }
+   
+   .newsletter__subtitle{
+       margin-left: 12vh;
+   }
+
+   .newsletter__content{
+       flex-direction: column;
+       margin-top: 1vh;
+   }
+
+   .company{
+       width: 80vw;
+   }
+
+   .company__text{
+       width: 100%;
+   }
+
+   .links{
+       width: 80vw;
+   }
+
+   .links__list{
+       justify-content: space-between;
+       width: 100%;
+       margin: 3vh 0 2vh;
+       padding-right: 5vw;
+   }
+
+   .footer__head{
+       flex-wrap: wrap;
+       justify-content: space-between;
+   }
+
+   .footer__contact__text{
+       width: 70vw;
+   }
+
+}
+
+
+@media (height: 1024px){
+   .button{
+       width: 100%;
+       margin-left: 0;
+   }
+
+   .about__image{
+       width: 100%;
+       justify-content: space-between;
+   }
+
+   .we-image{
+       width: 25vw;
+   }
+
+   .card{
+       width: 100%;
+   }
+
+   .email{
+       width: 45vw;
+   }
+
+   .button--newsletter{
+       width: 45vw;
+   }
+   
+   .newsletter__content{
+       flex-direction: column;
+       margin-top: 10px;
+   }
+
+   .company{
+       width: 100%;
+   }
+
+   .links{
+       width: 100%;
+   }
+   .footer__contact{
+       width: 100%;
+   }
+
+}
